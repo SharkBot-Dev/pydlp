@@ -21,4 +21,6 @@ WindowsからLinux向けにビルドする際は、
 ```bat
 set GOOS=linux 
 set GOARCH=amd64 
-go build -o pydlp```でビルドできます。
+go build -o pydlp
+```
+でビルドできます。

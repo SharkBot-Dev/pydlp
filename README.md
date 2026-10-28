@@ -14,3 +14,11 @@ yt-dlpの簡単なバージョン切り替えツール
 
 # インストールしたyt-dlpを実行する方法
 `pydlp run <yt-dlpのオプション>`で実行できます。<br>
+
+# ビルドする
+`go build`で実行した端末向けにビルドされます。<br>
+WindowsからLinux向けにビルドする際は、
+```bat
+set GOOS=linux 
+set GOARCH=amd64 
+go build -o pydlp```でビルドできます。
